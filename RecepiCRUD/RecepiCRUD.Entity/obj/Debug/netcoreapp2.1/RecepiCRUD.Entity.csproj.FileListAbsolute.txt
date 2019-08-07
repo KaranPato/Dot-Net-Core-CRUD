@@ -1,0 +1,14 @@
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.deps.json
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.csprojAssemblyReference.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.csproj.CoreCompileInputs.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.AssemblyInfoInputs.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.AssemblyInfo.cs
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.csproj.CopyComplete
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\obj\Debug\netcoreapp2.1\RecepiCRUD.Entity.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.runtimeconfig.json
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Entity\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.runtimeconfig.dev.json

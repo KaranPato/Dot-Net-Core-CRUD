@@ -1,0 +1,9 @@
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.deps.json
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\obj\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\obj\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.AssemblyInfoInputs.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\obj\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.AssemblyInfo.cs
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\obj\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\obj\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.ViewModel\obj\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.csprojAssemblyReference.cache

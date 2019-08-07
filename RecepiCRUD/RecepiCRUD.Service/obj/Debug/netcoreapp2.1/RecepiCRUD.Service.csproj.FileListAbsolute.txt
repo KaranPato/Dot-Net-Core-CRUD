@@ -1,0 +1,14 @@
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.Service.deps.json
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.Service.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.Service.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.Entity.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\bin\Debug\netcoreapp2.1\RecepiCRUD.ViewModel.pdb
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.csprojAssemblyReference.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.csproj.CoreCompileInputs.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.AssemblyInfoInputs.cache
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.AssemblyInfo.cs
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.csproj.CopyComplete
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.dll
+C:\Users\karanpatokar\source\repos\RecepiCRUD\RecepiCRUD.Service\obj\Debug\netcoreapp2.1\RecepiCRUD.Service.pdb
