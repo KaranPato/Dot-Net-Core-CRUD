@@ -10,5 +10,6 @@ namespace RecepiCRUD.ViewModel
         public string RecepiName { get; set; }
         public string RecepiDesc { get; set; }
         public string RecepiImage { get; set; }
+
     }
 }
