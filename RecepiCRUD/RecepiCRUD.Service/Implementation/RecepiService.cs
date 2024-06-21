@@ -16,7 +16,6 @@ namespace RecepiCRUD.Service.Implementation
     {
         private readonly RecepiContext _dbContext;
         private readonly string[] ACCEPTED_FILE_TYPES = new[] { ".jpg", ".jpeg", ".png" };
-        private readonly IHostingEnvironment host;
 
         public RecepiService(RecepiContext dbContext)
         {
