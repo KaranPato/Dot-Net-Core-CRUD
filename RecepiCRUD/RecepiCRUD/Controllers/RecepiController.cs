@@ -19,6 +19,7 @@ namespace RecepiCRUD.Controllers
         public RecepiController(IRecepiService recepiService)
         {
             _recepiService = recepiService;
+
         }
 
         /// <summary>
