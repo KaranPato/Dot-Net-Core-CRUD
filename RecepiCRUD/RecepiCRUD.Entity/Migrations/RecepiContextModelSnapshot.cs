@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RecepiCRUD.Entity;
 
+#nullable disable
+
 namespace RecepiCRUD.Entity.Migrations
 {
     [DbContext(typeof(RecepiContext))]
@@ -14,21 +16,27 @@ namespace RecepiCRUD.Entity.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("ProductVersion", "9.0.4")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("RecepiCRUD.Entity.Recepi", b =>
                 {
                     b.Property<int>("RecepiId")
                         .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
 
-                    b.Property<string>("RecepiDesc");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RecepiId"));
 
-                    b.Property<string>("RecepiImage");
+                    b.Property<string>("RecepiDesc")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RecepiName");
+                    b.Property<string>("RecepiImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecepiName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("RecepiId");
 

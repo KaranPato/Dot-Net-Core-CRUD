@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using RecepiCRUD.Service.Interfaces;
 using RecepiCRUD.ViewModel;
+using System;
 
 namespace RecepiCRUD.Controllers
 {
@@ -15,10 +11,13 @@ namespace RecepiCRUD.Controllers
     [ApiController]
     public class RecepiController : ControllerBase
     {
-        private readonly IRecepiService _recepiService;
-        public RecepiController(IRecepiService recepiService)
+        //private readonly IRecepiService _recepiService;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<RecepiController> _logger;
+        public RecepiController(IUnitOfWork unitOfWork, ILogger<RecepiController> logger)
         {
-            _recepiService = recepiService;
+            _unitOfWork = unitOfWork;
+            _logger = logger;
 
         }
 
@@ -34,12 +33,12 @@ namespace RecepiCRUD.Controllers
         {
             try
             {
-                var recepies = _recepiService.GetRecepi();
+                _logger.LogInformation("In method GetRecepies");
+                var recepies = _unitOfWork.RecepiService.GetRecepi();
                 return Ok(recepies);
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -50,12 +49,11 @@ namespace RecepiCRUD.Controllers
         {
             try
             {
-                var recepies = _recepiService.GetRecepiById(recepiVM.RecepiId);
+                var recepies = _unitOfWork.RecepiService.GetRecepiById(recepiVM.RecepiId);
                 return Ok(recepies);
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -66,7 +64,7 @@ namespace RecepiCRUD.Controllers
         {
             try
             {
-                var recepi = _recepiService.AddRecepi(recepiVM);
+                var recepi = _unitOfWork.RecepiService.AddRecepi(recepiVM);
                 return Ok(recepi);
             }
             catch (Exception ex)
@@ -81,7 +79,7 @@ namespace RecepiCRUD.Controllers
         {
             try
             {
-                var recepi = _recepiService.DeleteRecepi(Id);
+                var recepi = _unitOfWork.RecepiService.DeleteRecepi(Id);
                 return Ok(recepi);
             }
             catch (Exception ex)
